@@ -1,7 +1,7 @@
 ## 1. How to generate multiple accounts per run
 Add a command-line argument: ```--repeat {number}```
 
-```{number}``` - instead enter the number of accounts from **1** to **10**
+```{number}``` - Instead, enter the number of accounts
 
 ---
 
@@ -18,7 +18,7 @@ Add a command-line argument: ```--repeat {number}```
   python main.py --chrome --account
   ```
   ```
-  ESET-KeyGen_v1.5.3.3_win64.exe --chrome --account
+  ESET-KeyGen_v1.5.4.9_win64.exe --chrome --account
   ```
   > File name is unique for each version! Do not copy the above command. This is an example!
 
@@ -33,14 +33,14 @@ Add a command-line argument: ```--repeat {number}```
   
   1. Run main.py or executable file use [MBCI](https://github.com/rzc0d3r/ESET-KeyGen/blob/main/wiki/MBCI-Inferface.md):
   ```
-  python main.py --chrome --business-account
+  python main.py --chrome --protecthub-account
   ```
   ```
-  ESET-KeyGen_v1.5.3.3_win64.exe --chrome --protecthub-account
+  ESET-KeyGen_v1.5.4.9_win64.exe --chrome --protecthub-account
   ```
   > File name is unique for each version! Do not copy the above command. This is an example!
   
-  > **Works ONLY if you use the ```--custom-email-api``` argument or the following ```Email APIs```: ```mailticking```, ```fakemail```**
+  > **Works ONLY if you use the ```--custom-email-api``` argument or the following ```Email APIs```: ```mailticking```, ```fakemail```, ```inboxes```, ```incognitomail```**
 
   2. Wait until appears you will see *"Solve the captcha on the page manually!!!"*. Next, you will see a captcha with text input in the browser window created. You solve it and then just do nothing, the algorithm will do everything for you!
 
@@ -60,7 +60,7 @@ Add a command-line argument: ```--repeat {number}```
   python main.py --chrome --account --custom-email-api
   ```
   ```
-  ESET-KeyGen_v1.5.3.3_win64.exe --chrome --account --custom-email-api
+  ESET-KeyGen_v1.5.4.9_win64.exe --chrome --account --custom-email-api
   ```
   > File name is unique for each version! Do not copy the above command. This is an example!
 
@@ -91,7 +91,7 @@ Add a command-line argument: ```--repeat {number}```
   python main.py --chrome --protecthub-account --custom-email-api
   ```
   ```
-  ESET-KeyGen_v1.5.3.3_win64.exe --chrome --protecthub-account --custom-email-api
+  ESET-KeyGen_v1.5.4.9_win64.exe --chrome --protecthub-account --custom-email-api
   ```
   > File name is unique for each version! Do not copy the above command. This is an example!
 
